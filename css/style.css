@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+p{
+	font-size: 20px;
+}
+.container{
+
+width: 1200px;
+
+margin: auto;
+
+background-color: blue;
+
+height: 600px;
+}
+.flex{
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+height: 600px;
+
+align-items: center;
+}
+.box{
+
+padding: 45px 23px;
+
+flex: 1 0 30%;
+
+box-sizing: border-box;
+
+max-width: 30%;
+}
+.red{background-color: red;align-self: flex-start;}
+.green{background-color: green;}
+.orange{background-color: orange;}
